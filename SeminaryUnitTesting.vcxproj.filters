@@ -7,27 +7,46 @@
     <Filter Include="Examples">
       <UniqueIdentifier>{656dccb1-9b00-43dc-9620-53f0f832e01a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TestedCode">
+      <UniqueIdentifier>{57a51f9a-eea5-4434-ae7c-5ee15d3bf335}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\SomeMath.cpp" />
-    <ClCompile Include="src\Example7.cpp">
-      <Filter>Examples</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Example6.cpp">
-      <Filter>Examples</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Example4.cpp">
+    <ClCompile Include="src\Example1.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
     <ClCompile Include="src\Example3.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
-    <ClCompile Include="src\Example1.cpp">
+    <ClCompile Include="src\Example4.cpp">
       <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Example5.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Example6.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Example7.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Example11.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SomeMath.cpp">
+      <Filter>TestedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>TestedCode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\SomeMath.h" />
+    <ClInclude Include="include\SomeMath.h">
+      <Filter>TestedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity.h">
+      <Filter>TestedCode</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

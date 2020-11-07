@@ -15,7 +15,7 @@ double dotProduct(const std::vector<double>& left, const std::vector<double>& ri
 double calculatePiIterative(int iterations)
 {
 	double ret = 0;
-	for (auto curIter = 1; curIter < iterations - 1; curIter++)
+	for (auto curIter = 1; curIter <= iterations; curIter++)
 	{
 		ret += std::pow(-1, curIter - 1) / (2 * curIter - 1);
 	}
@@ -31,9 +31,3 @@ int greatestCommonDivisor(int first, int second)
 	return first;
 }
 
-bool mutuallyPrime(int first, int second)
-{
-	const auto isMutuallyPrime = greatestCommonDivisor(first, second) == 1;
-	return isMutuallyPrime ? testing::AssertionSuccess() << first << " " << second << " are mutually prime"
-		: testing::AssertionFailure() << first << " " << second << " are not mutually prime";
-}

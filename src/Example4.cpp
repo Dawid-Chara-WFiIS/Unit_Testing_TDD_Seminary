@@ -1,6 +1,6 @@
 #include "SomeMath.h"
 
-TEST(TestDotProduct, TestDotProductWrongVectorsSizes)
+TEST(DotProductTest, DotProductWrongVectorsSizesTest)
 {
 	const auto vectorV = std::vector<double>({ 1, 2, 3 });
 	const auto vectorU = std::vector<double>({ 1, 2 });

@@ -1,6 +1,6 @@
 #include "SomeMath.h"
 
-TEST(TestDotProduct, TestDotProductZerosVectors)
+TEST(DotProductTest, DotProductZerosVectorsTest)
 {
 	const auto vectorV = std::vector<double>({ 0, 0, 0 });
 	const auto vectorU = std::vector<double>({ 0, 0, 0 });
@@ -8,7 +8,7 @@ TEST(TestDotProduct, TestDotProductZerosVectors)
 	EXPECT_EQ(result, 0);
 }
 
-TEST(TestDotProduct, TestDotProductComparison)
+TEST(DotProductTest, DotProductComparisonTest)
 {
 	const auto vectorV = std::vector<double>({ 1, 1, 1 });
 	const auto vectorU = std::vector<double>({ 1, 1, 1 });

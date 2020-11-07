@@ -3,6 +3,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerCommand>$(TargetPath)</LocalDebuggerCommand>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>--gtest_output="json:D:\output.json"</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>--gtest_output="xml:D:\output.xml"</LocalDebuggerCommandArguments>
   </PropertyGroup>
 </Project>

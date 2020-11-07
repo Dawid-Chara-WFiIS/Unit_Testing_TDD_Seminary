@@ -32,13 +32,24 @@
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);include;</IncludePath>
+    <SourcePath>$(VC_SourcePath);src;</SourcePath>
+  </PropertyGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DotProduct.cpp" />
-    <ClCompile Include="src\GCD.cpp" />
+    <ClCompile Include="src\Example1.cpp" />
+    <ClCompile Include="src\Example3.cpp" />
+    <ClCompile Include="src\Example4.cpp" />
+    <ClCompile Include="src\Example6.cpp" />
+    <ClCompile Include="src\Example7.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\SomeMath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\SomeMath.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

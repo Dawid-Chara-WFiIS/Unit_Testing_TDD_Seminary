@@ -14,9 +14,12 @@ public:
 	[[nodiscard]] std::string getName() const;
 	[[nodiscard]] int getHealthPoints() const;
 	[[nodiscard]] int getAttackDamagePoints() const;
+	[[nodiscard]] std::string getStringRepr() const;
+
 	void setName(const std::string name);
 	void setHealthPoints(int healthPoints);
 	void setAttackDamagePoints(int attackDamagePoints);
+
 	bool hit(Entity* other);
 	
 private:

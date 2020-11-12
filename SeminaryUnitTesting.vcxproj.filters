@@ -16,6 +16,17 @@
     <ClCompile Include="src\Example1.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
+    <ClCompile Include="src\SomeMath.cpp">
+      <Filter>TestedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>TestedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc" />
+    <ClCompile Include="src\Example2.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
     <ClCompile Include="src\Example3.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
@@ -31,14 +42,14 @@
     <ClCompile Include="src\Example7.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
-    <ClCompile Include="src\Example11.cpp">
+    <ClCompile Include="src\Example8.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
-    <ClCompile Include="src\SomeMath.cpp">
-      <Filter>TestedCode</Filter>
+    <ClCompile Include="ExampleSRP.cpp">
+      <Filter>Examples</Filter>
     </ClCompile>
-    <ClCompile Include="src\Entity.cpp">
-      <Filter>TestedCode</Filter>
+    <ClCompile Include="ExampleTDD.cpp">
+      <Filter>Examples</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

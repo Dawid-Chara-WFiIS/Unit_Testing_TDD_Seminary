@@ -1,5 +1,6 @@
 #include "Entity.h"
 
+
 std::string Entity::getName() const
 {
 	return _name;
@@ -13,6 +14,15 @@ int Entity::getHealthPoints() const
 int Entity::getAttackDamagePoints() const
 {
 	return _attackDamagePoints;
+}
+
+std::string Entity::getStringRepr() const
+{
+	auto ret =  "Entity: " + _name + '\n';
+	ret += "Stats:\n";
+	ret += "HP = " + std::to_string(_healthPoints) + '\n';
+	ret += "DMG = " + std::to_string(_attackDamagePoints);
+	return ret;
 }
 
 void Entity::setName(const std::string name)

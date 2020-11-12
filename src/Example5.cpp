@@ -1,21 +1,17 @@
-#define _USE_MATH_DEFINES
-#include <math.h>
-#include "SomeMath.h"
-
-TEST(calculatePiIterativeTest, MillionIterationsTest)
-{
-	const auto iterations = static_cast<int>(std::pow(10, 6));
-	const auto PI = calculatePiIterative(iterations);
-	const auto abs_tolerance = std::pow(10, -4);
-	EXPECT_NEAR(PI, M_PI, abs_tolerance);
-	// EXPECT_DOUBLE_EQ(PI, M_PI); makes test failed
-}
-
-TEST(calculatePiIterativeTest, OneIterationCompareToAccurateTest)
-{
-	const auto iterations = 1;
-	const auto PI = calculatePiIterative(iterations);
-
-	EXPECT_PRED_FORMAT2(testing::DoubleLE, M_PI, PI);
-}
-
+//#include "SomeMath.h"
+//
+//testing::AssertionResult AssertMutuallyPrime(int first, int second)
+//{
+//	const auto isMutuallyPrime = greatestCommonDivisor(first, second) == 1;
+//	return isMutuallyPrime ? testing::AssertionSuccess() << first << " " << second << " are mutually prime"
+//		: testing::AssertionFailure() << first << " " << second << " are not mutually prime";
+//}
+//
+//TEST(GreatestCommonDivisorTest, MutuallyPrimeTest)
+//{
+//	/*EXPECT_PRED2(mutuallyPrime, 6, 4);
+//	EXPECT_FALSE(mutuallyPrime(6, 5));*/
+//	EXPECT_FALSE(AssertMutuallyPrime(6, 4));
+//	EXPECT_FALSE(AssertMutuallyPrime(6, 5));
+//}
+//

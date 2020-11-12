@@ -31,3 +31,7 @@ int greatestCommonDivisor(int first, int second)
 	return first;
 }
 
+[[nodiscard]] bool mutuallyPrime(int first, int second)
+{
+	return greatestCommonDivisor(first, second) == 1;
+}

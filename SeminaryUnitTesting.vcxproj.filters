@@ -13,9 +13,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\Example1.cpp">
-      <Filter>Examples</Filter>
-    </ClCompile>
     <ClCompile Include="src\SomeMath.cpp">
       <Filter>TestedCode</Filter>
     </ClCompile>
@@ -24,6 +21,9 @@
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc" />
+    <ClCompile Include="src\Example1.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
     <ClCompile Include="src\Example2.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
@@ -45,10 +45,13 @@
     <ClCompile Include="src\Example8.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
-    <ClCompile Include="ExampleSRP.cpp">
+    <ClCompile Include="src\ExampleMock.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
-    <ClCompile Include="ExampleTDD.cpp">
+    <ClCompile Include="src\ExampleSRP.cpp">
+      <Filter>Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ExampleTDD.cpp">
       <Filter>Examples</Filter>
     </ClCompile>
   </ItemGroup>

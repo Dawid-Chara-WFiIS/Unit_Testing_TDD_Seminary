@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.007" timestamp="2020-11-11T13:23:23" name="AllTests">
-  <testsuite name="GreatestCommonDivisorTest" tests="2" failures="0" disabled="0" errors="0" time="0.005" timestamp="2020-11-11T13:23:23">
-    <testcase name="TwoEvenNumbersTest" status="run" result="completed" time="0" timestamp="2020-11-11T13:23:23" classname="GreatestCommonDivisorTest" />
-    <testcase name="TwoPrimesNumbersTest" status="run" result="completed" time="0" timestamp="2020-11-11T13:23:23" classname="GreatestCommonDivisorTest" />
-  </testsuite>
-</testsuites>

@@ -40,17 +40,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ExampleSRP.cpp" />
-    <ClCompile Include="ExampleTDD.cpp" />
     <ClCompile Include="src\Entity.cpp" />
     <ClCompile Include="src\Example1.cpp" />
-    <ClCompile Include="src\Example7.cpp" />
     <ClCompile Include="src\Example2.cpp" />
     <ClCompile Include="src\Example3.cpp" />
     <ClCompile Include="src\Example4.cpp" />
     <ClCompile Include="src\Example5.cpp" />
     <ClCompile Include="src\Example6.cpp" />
+    <ClCompile Include="src\Example7.cpp" />
     <ClCompile Include="src\Example8.cpp" />
+    <ClCompile Include="src\ExampleMock.cpp" />
+    <ClCompile Include="src\ExampleSRP.cpp" />
+    <ClCompile Include="src\ExampleTDD.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\SomeMath.cpp" />
   </ItemGroup>

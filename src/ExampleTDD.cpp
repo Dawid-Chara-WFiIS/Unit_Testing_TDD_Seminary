@@ -42,6 +42,7 @@ public:
 		_container.clear();
 	}
 
+
 private:
 	std::vector<EntityRecord> _container;
 };
@@ -63,7 +64,7 @@ protected:
 };
 
 /* pre-requirement
-- method that checks if record is unique by 
+- method that checks if record is unique by id
 - method that checks if record is unique name
 - addRecord method with validation if record to add is unique by name and id
 */
